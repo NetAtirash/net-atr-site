@@ -1,2 +1,24 @@
+nav {
+    padding: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: blueviolet;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "sarabun", sans-serif;
+    font-weight: 600;
+}
 body {
+    font-family: "Sarabun", sans-serif;
+}
+section {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+footer {
+    margin-left: 40px;
+    margin-right: 40px;
 }
