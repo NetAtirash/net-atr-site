@@ -1,9 +1,25 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 nav {
+    justify-content: space-between;
     padding: 16px;
     padding-left: 40px;
     padding-right: 40px;
     background-color: #F5F5DC;
     color: black;
+}
+#logo {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 800;
+    font-size: 200%;
+    color: black;
+}
+#header-menu {
+    text-align: right;
 }
 a {
     color: black;
