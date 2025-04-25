@@ -1,9 +1,12 @@
+/*general class*/
 .flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
+
+/*header styles*/
 nav {
     justify-content: space-between;
     padding: 16px;
@@ -27,6 +30,8 @@ a {
     font-family: "sarabun", sans-serif;
     font-weight: 600;
 }
+
+/*body styles*/
 body {
     display: flex;
     flex-direction: column;
@@ -38,6 +43,8 @@ section {
     margin-left: 40px;
     margin-right: 40px;
 }
+
+/*footer styles*/
 footer {
     background-color: #F5F5DC;
     text-align: center;
