@@ -9,38 +9,81 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--HEADER-->
     <header>
-      <nav class="flex-container">
-        <div>
-            <a id="logo" href="index.html">BlogNet</a>
+        <div class="topbar max-width-container">
+        <!--LEFT BLOCK-->
+        <div class="logo">
+            <h1>NetAtiash</h1>
         </div>
-        <div id="header-menu">
-            <a href="about.html">About</a> |
-            <a href="blog.html">Blog</a> |
-            <a href="contact.html">Contact</a>
+        <!--RIGHT BLOCK-->
+        <nav>
+            <div class="nav-menu">
+                <a href=#Portfolio>Portfolio</a>
+            </div>
+            <div class="nav-menu">
+                <a href=#Contact>Contact</a>
+            </div>
+        </nav>
         </div>
-      </nav>
     </header>
     <main>
-        <section id="welcome">
-            <p>Welcome to my site</p>
+        <!--WELCOME-->
+        <section>
+            <div class="sec-welcome max-width-container">
+            <div>
+                <h1 class="master">Adaptive Designer</h1>
+            </div>
+            <div style="width: 500px;">
+                <p>Welcome to my personal site. Here, I have compiling my experience as a designer, my learning, my interest in a hope to express my self.</p>
+                <button style="width: 100%;">LEARN MORE</button>
+            </div>
+        </div>
         </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This section contains information about the page or company.</p>
+        
+        <!--ABOUT ME-->
+        <section class="sec-style2">
+            <div class="sec-about max-width-container">
+                <div>
+                    <h1 class="topic">About me</h1>
+                </div>
+                <div class="text-box">
+                    <p>Our platform is dedicated to fostering excellence in writing, offering comprehensive resources tailored for both aspiring writers and seasoned professionals. We are committed to elevating writing skills through expert guidance and nuanced insights into the craft. Learn more</p>
+                </div>
+            </div>
         </section>
-        <section id="services">
-            <h2>Services</h2>
-            <p>Details about services offered.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Contact details or a form can go here.</p>
+        
+        <!--CONTACT-->
+        <section>
+            <div class="sec-contact max-width-container">
+                <div>
+                    <h1 class="topic">Contact me</h1>
+                </div>
+                <form>
+                    <div class="form-item">
+                        <label for="first-name">First Name <span class="low-prio">(require)</span></label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="email">Email <span class="low-prio">(require)</span></label>
+                        <input type="email" name="email">
+                    </div>
+                    
+                    <div class="form-item">
+                        <label for="message">Message <span class="low-prio">(require)</span></label>
+                        <textarea id="message" name="message" rows="8" cols="50"></textarea>
+                    </div>
+                    <input type="submit" value="SEND MESSAGE">
+                </form>
+            </div>
         </section>
     </main>
+
+    <!--FOOTER-->
     <footer>
         <p>&copy; 2025 NetAtirash. All rights reserved.</p>
     </footer>
