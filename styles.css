@@ -3,6 +3,22 @@ body {
     margin: 0;
 }
 
+/*COMPONENTS*/
+.container-horizontal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.container-vertical {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
 /*HEADER or TOPBAR*/
 header {
     display: flex;
@@ -118,8 +134,15 @@ button:hover {
     background-color: #595353;
 }
 
-/*RESPONDSIVE*/
-.max-width-container {
+/*RESPONSIVE*/
+.rescontainer-a {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+.rescontainer-b {
     display: flex;
     width: 100%;
     max-width: 1200px;
@@ -138,6 +161,7 @@ button:hover {
 form {
     display: flex;
     flex-direction: column;
+    width: 500px;
     gap: 8px;
     padding-top: 50px;
 }
