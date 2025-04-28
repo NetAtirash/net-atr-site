@@ -68,25 +68,22 @@ footer {
 
 /*EACH SECTION*/
 .welcome {
-    height: 600px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .about {
-    height: 300px;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
 }
 .contact {
-    height: 600px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .intro {
-    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -112,8 +109,12 @@ p {
 .text-displayXXL {
     font-size: 80px;
 }
-.text-displayL {
+.text-displayXL {
     font-size: 50px;
+    font-weight: 400;
+}
+.text-displayL {
+    font-size: 40px;
     font-weight: 400;
 }
 .text-displayM {
@@ -215,7 +216,18 @@ textarea:focus {
     gap: 8px;
 }
 
-/*GALLERY*/
+/*BANNER*/
+.highlight {
+    flex-direction: column;
+    img {
+        width: 100%;
+        height: 500px;
+        border-radius: 16px;
+        object-fit: cover;
+    }
+}
+
+/*GALLERY CREDIT:"https://codepen.io/wallaceri/pen/JpzZPw"*/
 .container {
     width: 100%;
     display: block;
