@@ -1,6 +1,7 @@
-body {
+html, body {
     background-color: #E8E8E8;
     margin: 0;
+    height: 100%;
 }
 
 /*COMPONENTS*/
@@ -257,9 +258,21 @@ textarea:focus {
       height: 100%;
       object-fit: cover;
       border-radius: 16px;
+      transition: 0.1s;
     }
     img:hover {
-        opacity: 0.5;
         border-radius: 8px;
+        transition: 0.3s;
+        transform: scale(1.2);
+        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
     }
+}
+
+/*MODAL BOX*/
+.modal-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
